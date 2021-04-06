@@ -5,7 +5,7 @@ const app = express()
 
 // ================================DATABASE CONNECTION===================================================
 // =======================================================================================================
-mongoose.connect('mongodb://localhost:27017/myapp', {
+mongoose.connect('mongodb+srv://Martin-Jacob-Zulu:never@give.up@cluster0.7skcd.mongodb.net/goldex?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology : true,
